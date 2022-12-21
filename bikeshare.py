@@ -109,7 +109,7 @@ def time_stats(df):
     # TO DO: display the most common day of week
 
     popular_day_of_week = df['day_of_week'].mode()[0]
-    print('Most Common day of week:', popular_day_of_week)
+    print('Most Common day ', popular_day_of_week)
 
     # TO DO: display the most common start hour
 
@@ -216,6 +216,7 @@ def user_stats(df):
     
 def printbye():
     print("Good bye") 
+    
     print(' * * ' * 10, '\n')
 def main():
     while True:
