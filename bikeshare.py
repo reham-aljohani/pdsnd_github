@@ -213,8 +213,10 @@ def user_stats(df):
     
     print('\n')
     print(' * * ' * 10, '\n')
-
-
+    
+def printbye():
+    print("Good bye") 
+    print(' * * ' * 10, '\n')
 def main():
     while True:
         city, month, day = get_filters()
