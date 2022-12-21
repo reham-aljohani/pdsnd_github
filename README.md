@@ -17,6 +17,12 @@ In this project, you will make use of Python to explore data related to bike sha
 3-new_york_city.csv
 4- bikeshare.py 
 
+### Statistics Computed
+#1 Popular times of travel
+#2 Popular stations and trip
+#3 Trip duration
+#4 User info
+
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
