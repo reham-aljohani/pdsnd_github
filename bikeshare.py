@@ -48,7 +48,7 @@ def get_filters():
             break
 
     print('\n')
-    print('-'*40)
+    print(' * * ' * 10, '\n')
 
     return city, month, day
 
@@ -118,7 +118,7 @@ def time_stats(df):
     print('Most Common Start Hour:', popular_hour)
 
     print("\n This took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print(' * * ' * 10, '\n')
 
 
 def station_stats(df):
@@ -144,7 +144,7 @@ def station_stats(df):
 
     print("\n This took %s seconds." % (time.time() - start_time))
 
-    print('-'*40)
+    print(' * * ' * 10, '\n')
 
 
 def trip_duration_stats(df):
@@ -166,7 +166,7 @@ def trip_duration_stats(df):
     print("\n This took %s seconds." % (time.time() - start_time))
 
     print('\n')
-    print('-'*40)
+    print(' * * ' * 10, '\n')
 
 
 def user_stats(df):
@@ -212,7 +212,7 @@ def user_stats(df):
         print("\n Earliest Year: \n No data available for this city.")
     
     print('\n')
-    print('-'*40)
+    print(' * * ' * 10, '\n')
 
 
 def main():
